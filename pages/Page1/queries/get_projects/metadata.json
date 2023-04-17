@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "get_projects",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/customers"
+        "url": "web:4000/p/projects"
       },
       "invalids": [],
       "messages": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Api1",
+  "id": "Page1_get_projects",
   "deleted": false,
   "gitSyncId": "643403d83db5f45fb80f1fd6_643405383db5f45fb80f1fde"
 }

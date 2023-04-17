@@ -50,19 +50,19 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.business_phone.computedValue"
+                  "key": "primaryColumns.client_id.computedValue"
                 },
                 {
-                  "key": "primaryColumns.company.computedValue"
+                  "key": "primaryColumns.project_desc.computedValue"
                 },
                 {
-                  "key": "primaryColumns.first_name.computedValue"
+                  "key": "primaryColumns.project_difficulty.computedValue"
                 },
                 {
-                  "key": "primaryColumns.job_title.computedValue"
+                  "key": "primaryColumns.project_id.computedValue"
                 },
                 {
-                  "key": "primaryColumns.last_name.computedValue"
+                  "key": "primaryColumns.project_name.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -100,18 +100,18 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1681131110769,
+              "columnUpdatedAt": 1681753911594,
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table1",
+              "widgetName": "Projects",
               "defaultPageSize": 0,
               "columnOrder": [
-                "business_phone",
-                "company",
-                "first_name",
-                "job_title",
-                "last_name"
+                "client_id",
+                "project_desc",
+                "project_difficulty",
+                "project_id",
+                "project_name"
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
@@ -127,16 +127,16 @@
               "dynamicTriggerPathList": [],
               "borderWidth": "1",
               "primaryColumns": {
-                "business_phone": {
+                "client_id": {
                   "allowCellWrapping": false,
                   "index": 0,
                   "width": 150,
-                  "originalId": "business_phone",
-                  "id": "business_phone",
-                  "alias": "business_phone",
+                  "originalId": "client_id",
+                  "id": "client_id",
+                  "alias": "client_id",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "number",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -148,21 +148,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "business_phone",
+                  "label": "client_id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"business_phone\"]))}}",
+                  "computedValue": "{{Projects.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"client_id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "company": {
+                "project_desc": {
                   "allowCellWrapping": false,
                   "index": 1,
                   "width": 150,
-                  "originalId": "company",
-                  "id": "company",
-                  "alias": "company",
+                  "originalId": "project_desc",
+                  "id": "project_desc",
+                  "alias": "project_desc",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -177,21 +177,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "company",
+                  "label": "project_desc",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"company\"]))}}",
+                  "computedValue": "{{Projects.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"project_desc\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "first_name": {
+                "project_difficulty": {
                   "allowCellWrapping": false,
                   "index": 2,
                   "width": 150,
-                  "originalId": "first_name",
-                  "id": "first_name",
-                  "alias": "first_name",
+                  "originalId": "project_difficulty",
+                  "id": "project_difficulty",
+                  "alias": "project_difficulty",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -206,24 +206,24 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "first_name",
+                  "label": "project_difficulty",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"first_name\"]))}}",
+                  "computedValue": "{{Projects.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"project_difficulty\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "job_title": {
+                "project_id": {
                   "allowCellWrapping": false,
                   "index": 3,
                   "width": 150,
-                  "originalId": "job_title",
-                  "id": "job_title",
-                  "alias": "job_title",
+                  "originalId": "project_id",
+                  "id": "project_id",
+                  "alias": "project_id",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "number",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -235,21 +235,21 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "job_title",
+                  "label": "project_id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"job_title\"]))}}",
+                  "computedValue": "{{Projects.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"project_id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
-                "last_name": {
+                "project_name": {
                   "allowCellWrapping": false,
                   "index": 4,
                   "width": 150,
-                  "originalId": "last_name",
-                  "id": "last_name",
-                  "alias": "last_name",
+                  "originalId": "project_name",
+                  "id": "project_name",
+                  "alias": "project_name",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -264,10 +264,10 @@
                   "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "last_name",
+                  "label": "project_name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_name\"]))}}",
+                  "computedValue": "{{Projects.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"project_name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -280,7 +280,7 @@
               "textSize": "0.875rem",
               "widgetId": "bqcamod877",
               "minWidth": 450,
-              "tableData": "{{Api1.data}}",
+              "tableData": "{{get_projects.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -296,8 +296,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
+              "id": "Page1_get_projects",
+              "name": "get_projects",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
