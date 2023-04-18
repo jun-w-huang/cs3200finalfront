@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/projects/{{project_id}}/tickets"
+        "url": "web:4000/p/projects/{{project_id_tickets.text}}/tickets"
       },
       "invalids": [],
       "messages": [],
@@ -28,12 +28,7 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "project_id",
-          "value": "{{project_id}}"
-        }
-      ],
+      "queryParameters": [],
       "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
@@ -50,14 +45,14 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "queryParameters[0].value"
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "project_id"
+      "project_id_tickets.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
