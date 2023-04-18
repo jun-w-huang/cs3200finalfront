@@ -3,6 +3,10 @@
     {
       "id": "Project_Lead_Persona_page",
       "isDefault": true
+    },
+    {
+      "id": "Developer_Persona_Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
