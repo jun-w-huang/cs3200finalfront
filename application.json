@@ -11,6 +11,10 @@
     {
       "id": "Developer_Persona_Tickets_Page",
       "isDefault": false
+    },
+    {
+      "id": "Project_Lead_Persona_page Copy",
+      "isDefault": false
     }
   ],
   "viewMode": false,

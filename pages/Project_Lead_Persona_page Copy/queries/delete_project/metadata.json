@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_project_tickets",
+    "name": "delete_project",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/projects/{{project_id_tickets.text}}/tickets"
+        "url": "web:4000/p/projects"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Project_Lead_Persona_page",
+    "pageId": "Project_Lead_Persona_page Copy",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{delete_project_form.data}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -45,21 +45,21 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "datasourceUrl"
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "project_id_tickets.text"
+      "delete_project_form.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Project_Lead_Persona_page_get_project_tickets",
+  "id": "Project_Lead_Persona_page Copy_delete_project",
   "deleted": false,
-  "gitSyncId": "643403d83db5f45fb80f1fd6_643edcbc9ccc08094dd48d5b"
+  "gitSyncId": "643403d83db5f45fb80f1fd6_64403609e965d37395a91f02"
 }
