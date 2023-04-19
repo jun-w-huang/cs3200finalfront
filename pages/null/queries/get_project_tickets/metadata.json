@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "create_project",
+    "name": "get_project_tickets",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/projects"
+        "url": "web:4000/p/projects/{{project_id_tickets.text}}/tickets"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Project_Lead_Persona_page_2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +28,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{create_project_form.data}}",
+      "body": "",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -45,21 +44,21 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "datasourceUrl"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "create_project_form.data"
+      "project_id_tickets.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Project_Lead_Persona_page_2_create_project",
+  "id": "null_get_project_tickets",
   "deleted": false,
-  "gitSyncId": "643403d83db5f45fb80f1fd6_64401d823b1c7629f7890535"
+  "gitSyncId": "643403d83db5f45fb80f1fd6_64401d823b1c7629f7890537"
 }

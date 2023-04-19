@@ -16,8 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Project_Lead_Persona_page_2",
-    "collectionId": "Project_Lead_Persona_page_2_enable_update_form",
+    "collectionId": "null_enable_update_form",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -41,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Project_Lead_Persona_page_2_enable_update_form.myFun2",
+  "id": "null_enable_update_form.myFun2",
   "deleted": false,
   "gitSyncId": "643403d83db5f45fb80f1fd6_64401d823b1c7629f789053a"
 }

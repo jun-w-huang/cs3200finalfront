@@ -1,7 +1,6 @@
 {
   "unpublishedCollection": {
     "name": "enable_update_form",
-    "pageId": "Project_Lead_Persona_page_2",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +17,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Project_Lead_Persona_page_2_enable_update_form",
+  "id": "null_enable_update_form",
   "deleted": false,
   "gitSyncId": "643403d83db5f45fb80f1fd6_64401d823b1c7629f7890546"
 }

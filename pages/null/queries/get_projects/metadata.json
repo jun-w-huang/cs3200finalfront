@@ -16,7 +16,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Project_Lead_Persona_page_2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Project_Lead_Persona_page_2_get_projects",
+  "id": "null_get_projects",
   "deleted": false,
   "gitSyncId": "643403d83db5f45fb80f1fd6_64401d823b1c7629f7890534"
 }
