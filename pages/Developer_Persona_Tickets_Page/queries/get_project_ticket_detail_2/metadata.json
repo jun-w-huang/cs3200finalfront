@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_employee_tickets",
+    "name": "get_project_ticket_detail_2",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/employees/{{employee_id_tickets.text}}/tickets"
+        "url": "web:4000/p/projects/{{project_id_details.text}}/tickets/{{ticket_id_details.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Developer_Persona_Page",
+    "pageId": "Developer_Persona_Tickets_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,14 +47,15 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "employee_id_tickets.text"
+      "project_id_details.text",
+      "ticket_id_details.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Developer_Persona_Page_get_employee_tickets",
+  "id": "Developer_Persona_Tickets_Page_get_project_ticket_detail_2",
   "deleted": false,
-  "gitSyncId": "643ebc9c40a3ff046a7e6ea5_643ffb511ed7024c4f984d21"
+  "gitSyncId": "643ebc9c40a3ff046a7e6ea5_64401f60cfaa5b7f9e0a2298"
 }
