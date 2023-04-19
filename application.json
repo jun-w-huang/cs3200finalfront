@@ -7,6 +7,10 @@
     {
       "id": "Developer_Persona_Page",
       "isDefault": false
+    },
+    {
+      "id": "Developer_Persona_Tickets_Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Developer_Persona_Page",
+    "pageId": "Developer_Persona_Tickets_Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Developer_Persona_Page_update_project_ticket",
+  "id": "Developer_Persona_Tickets_Page_update_project_ticket",
   "deleted": false,
-  "gitSyncId": "643ebc9c40a3ff046a7e6ea5_643ffc5d1ed7024c4f984d24"
+  "gitSyncId": "643ebc9c40a3ff046a7e6ea5_64401d86cfaa5b7f9e0a228f"
 }
